@@ -23,3 +23,5 @@
 *.pdf -crlf -diff -merge
 *.jpg -crlf -diff -merge
 *.png -crlf -diff -merge
+*.mat -crlf -diff -merge
+*.m -crlf -diff -merge
