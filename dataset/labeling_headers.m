@@ -43,8 +43,8 @@ labelfile = [dataArray{1:end-1}];
 clearvars filename delimiter startRow formatSpec fileID dataArray ans;
 
 %% putting label for each file of headers
-load('KKI_test.mat');
-num = cell(length(headers_test_KKI),1);
-for i = 1:length(headers_test_KKI)
-     headers_test_KKI{i}.label=labelfile(i,2);
+load('filename.mat');
+num = cell(length(headers_test_filename),1);
+for i = 1:length(headers_test_filename)
+     headers_test_filename{i}.label=labelfile(i,2);
 end

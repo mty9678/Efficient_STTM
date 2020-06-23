@@ -1,4 +1,5 @@
 % Get all entries in KKI directory
+% This file convert .nii data coming from the ADHD dataset (available on corresponding website) 
 D = dir;
 V = cell(numel(D),1);
 headers = cell(numel(D),1);
@@ -19,4 +20,4 @@ for i=1:numel(D)
 end
 V = V(1:cnt);
 headers = headers(1:cnt);
-save('KKI.mat', 'V', 'headers');
+save('filename.mat', 'V', 'headers');
