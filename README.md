@@ -13,19 +13,23 @@ The key novelty of our research is a stable and well explained Support Vector Ma
 
  
 **Results**
+
 Each folder presents results for each step of algorithm, presented in paper. 
+
 *** TT_***
 
 
 
 **Dataset**
+
 Folder- dataset
 ADNI_first - fMRI dataset for Alzheimer disease 
 ADHD -  fMRI dataset for Attention Deficit Hyperactivity Disorder
 
 
 **Cite As**
-If you use our work and codes for the further research then please cite the paper [[1]](https://arxiv.org/pdf/2002.05079.pdf).
+
+If you use our work and codes for the further research then please cite the paper [[Efficient_STTM]](https://arxiv.org/pdf/2002.05079.pdf).
 <details><summary> BibTeX </summary><pre>
 @misc{kir2020efficient,
     title={Efficient Structure-preserving Support Tensor Train Machine},
