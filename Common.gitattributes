@@ -30,6 +30,7 @@
 *.tsv      text
 *.txt      text
 *.sql      text
+*.m        diff=Matlab
 
 # Graphics
 *.png      binary
