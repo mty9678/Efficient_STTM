@@ -23,8 +23,10 @@ Each folder presents results for each step of algorithm, presented in paper.
 **Dataset**
 
 Folder- dataset
-ADNI_first - fMRI dataset for Alzheimer disease 
-ADHD -  fMRI dataset for Attention Deficit Hyperactivity Disorder
+
+* ADNI_first - fMRI dataset for Alzheimer disease 
+
+* ADHD -  fMRI dataset for Attention Deficit Hyperactivity Disorder
 
 
 **Cite As**
