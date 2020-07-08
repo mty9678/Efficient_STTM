@@ -12,7 +12,7 @@ function [Bestcv,Besttimetr,Besttimete] = KTTCPMain_lib(X,label,l,data_KTTCP,t)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc;
 % Add Path
-addpath('.\libsvm-master');
+addpath('../libsvm-master');
 %% Initialize
 n=size(X,1);                                                                    % Row is data number
 c=ones(1,n);  
