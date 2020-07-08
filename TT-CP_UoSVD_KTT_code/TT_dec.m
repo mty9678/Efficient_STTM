@@ -9,7 +9,7 @@ function [ data_TT , Rank] = TT_dec(X,l,eps);
 N = length(X);
 
 %% Decompose the input data with TT decomposition
-addpath('TT-Toolbox-master');
+addpath('./TT-Toolbox-master');
 data_TT=cell(N,1); % Save TT decomposition results
 Rank = cell(N,1);
 fprintf('Decomposing the input data with TT decomposition, please wait!\n');

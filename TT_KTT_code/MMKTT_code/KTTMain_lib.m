@@ -15,7 +15,7 @@ function [Bestcv,Besttimetr,Besttimete] = KTTMain_lib(X,label,data_KTT2,data_TT,
 % case 2 : addition of kernel in TT decomposition of data (i.e. using data_KTT at the place of data_TT)
 clc;
 % Add Path
-addpath('.\libsvm-master');
+addpath('./libsvm-master');
 %% Initialize
 n=size(X,1);                                                                    % Row is data number
 c=ones(1,n);  

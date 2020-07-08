@@ -5,7 +5,7 @@ function [ data_TT , R, pos, core] = TT_dec(X,l,eps)
 n = length(X);
 % l is rank truncation 
 %% Decompose the input data with TT decomposition
-addpath('.\TT-Toolbox-master');
+addpath('./TT-Toolbox-master');
 data_TT=cell(n,1);                                                            % Save TT decomposition results
 R = cell(n,1);
 core = cell(n,1);
