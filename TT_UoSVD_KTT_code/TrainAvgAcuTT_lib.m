@@ -5,14 +5,15 @@ function [Bestcv, Bestc,Bestg,time_tr,time_te]= TrainAvgAcuTT_lib(label,k,data_K
 
 %%   Input
 
-%          X         the input data cell array, n * 1 --- each array represents a three-order tensor
-%                    n is the number of training examples
-%          label     the output labels associated with the input data, n * 1
-%          R :       the rank of tensor decomposition
-%          k :       k-fold cross validation
-%          data_KCP  CP or KCP decomposition result
-%          c1, c2 :  the trade-off parameter range [2^c1, 2^(c1+1),..., 2^(c2-1), 2^c2] in SVM model
-%          g1, g2 :  the RBF kernel width parameter range [2^g1, 2^(g1+1),..., 2^(g2-1), 2^g2] in SVM model
+%          X:          the input data cell array, n * 1 --- each array represents a three-order tensor
+%                      n is the number of training examples
+%          label:      the output labels associated with the input data, n * 1
+%          R :         the rank of tensor decomposition
+%          k :         k-fold cross validation
+%          data_KTT2:  TT or KTT (matricized form) 
+%          data_TT:    TT decomposition of input data
+%          c1, c2 :    the trade-off parameter range [2^c1, 2^(c1+1),..., 2^(c2-1), 2^c2] in SVM model
+%          g1, g2 :    the RBF kernel width parameter range [2^g1, 2^(g1+1),..., 2^(g2-1), 2^g2] in SVM model
 
 %%   Output:
 

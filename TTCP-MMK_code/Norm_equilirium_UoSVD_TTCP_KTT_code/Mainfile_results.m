@@ -1,11 +1,18 @@
 %%%% This is the main file for producing all the results %%%%
-% This work is submitted to ICML 2020 for review. The codes are 
-% for the
+% Author: @ Kirandeep Kour (kour@mpi-magdeburg.mpg.de)
+
+% Corresponding research title is
 % "Efficient Structure-preserving Support Tensor Train Machine"
 
+
+% Before running the file, following steps are required
 % Step 1. Setup the TT toolbox
 % Step 2. run make file in matlab folder in libsvm-master
 % Add complete folder and subfolders into path
+
+% Choosing data set
+% Data set is available in Dataset folder in the same repository
+%============================================================
 %%%%%%%%%%%%%%%%%%%%%% DATA1: ADNI %%%%%%%%%%%%%%%%%%%%%%%%%%
  datatype = 'adni';
 % datatype = 'adhd';
@@ -13,24 +20,26 @@
 switch datatype
 %% ADNI dataset
     case 'adni'
-% loading ADNi data file
+% loading ADNI data file
 load('ADNI_first.mat')
 n = size(X,1);
 
-% Computing TT decomposition
+%%%%%%%% Computing TT decomposition %%%%%%%%
 eps = 0; 
 trunc = 2; % while fixing rank 
-dimn = size(X{1});
+dimn = size(X{1}); % dimension of input tensor
+
 % Repeat t times with k-fold cross validation 
 t = 1; % number of repitition of whole procedure
 global l % the rank has been defined as a global variable
 for l = 1:10 
-[data_TT,~] = TT_dec(X,l,eps); %TT factorization of input 
+[data_TT,~] = TT_dec(X,l,eps); % TT factorization of input 
 
 
 % merging index r1 and r2 into r = r1+(r2-1)*R1
 R1 =  l;
 R2 = l;
+% TT-CP conversion as mentioned in the paper
 [TT_CP_data] = ttcptensor(data_TT,R1,R2,dimn,trunc);
 
 % switching kernel filtering over tensor factorization
@@ -39,7 +48,7 @@ R2 = l;
 % kerfilter = 'covariance';
  kerfilter = 'identity';
  
-% computing KTT of input tensor
+% computing Kernelized TT of input tensor
 [data_KTTCP] = KTTCP(X, TT_CP_data, kerfilter);
 
 % main results including training and testing
@@ -47,6 +56,7 @@ R2 = l;
 
 end
 
+% Plotting the accuracy
 l = 1:1:10;
 save('CVofTTCP_ADNI.mat','CVofTTCP_ADNI') % mat file for accuracy output
 idxmax1 = find(CVofTTCP_ADNI == max(CVofTTCP_ADNI)); % maximum accuracy
@@ -115,7 +125,7 @@ plot(l,CVofTTCP_ADHD, '--s',...
     'MarkerSize', 5)
 %%
 end % end for switch function
-
-
-
+%=========================================================
+%%%%%%%%%%%%%%%%%%%%%%%%%% END  %%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

@@ -1,5 +1,5 @@
 function Kernel_value = Ker_fTT(X1,X2,Y1,Y2,Order,g)
-% Details goes here
+%%%%%%%%%%%% Details goes here %%%%%%%%%%%%%%%%%%%
 % it gives second part of algrithm 
 % kernel of each tensor pair in KTT form 
 % X1 X2 are data_KTT2 of input tensors X, and X = n*1 cell 
@@ -32,7 +32,4 @@ end
   K_ttcore =  cell2core(tt_tensor, K_tt);
   Kernel_value = full(K_ttcore);
 end
-% 
-%     
-%     
-%     
+    

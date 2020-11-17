@@ -19,7 +19,7 @@ function [Bestcv, Bestc,Bestg,time_tr,time_te]= TrainAvgAcuTTCP_lib(X,label,l,k,
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Initialize
 n=size(data_KTTCP,1);
-global order
+global Order
 Order = 3;
 c=ones(1,n);  
 a=cumsum(c);
@@ -46,7 +46,7 @@ for log2g = g1:g2
                 if Order~=1   
                    Ktrain(p,q)=Ker_fTTCP(data_KTTCP{b(p),1},data_KTTCP{b(q),1},Order,2^log2g,l);
                 else
-                   Ktrain(p,q)=Ker_fTTCP(X(b(p),:),X(b(q),:),Order,2^log2g);
+                   Ktrain(p,q)=Ker_fTTCP(X(b(p),:),X(b(q),:),Order,2^log2g,l);
                 end
                 if p~=q
                     Ktrain(q,p)=Ktrain(p,q);
@@ -61,7 +61,7 @@ for log2g = g1:g2
                 if Order~=1
                    Ktest(r,p)= Ker_fTTCP(data_KTTCP{choose{cv,1}(1,r),1},data_KTTCP{b(p),1},Order,2^log2g,l);
                 else
-                   Ktest(r,p)= ker_fTTCP(X(choose{cv,1}(1,r),:),X(b(p),:),Order,2^log2g);
+                   Ktest(r,p)= ker_fTTCP(X(choose{cv,1}(1,r),:),X(b(p),:),Order,2^log2g,l);
                 end
             end
         end

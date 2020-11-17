@@ -1,6 +1,7 @@
-%%%% This is the main file for producing all the results %%%%
-% This work is submitted to ICML 2020 for review. The codes are 
-% for the
+%%%% This file produces results without norm equilibrium %%%%
+% Author: @ Kirandeep Kour (kour@mpi-magdeburg.mpg.de)
+
+% Corresponding research title is
 % "Efficient Structure-preserving Support Tensor Train Machine"
 
 % Step 1. Setup the TT toolbox

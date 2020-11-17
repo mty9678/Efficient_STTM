@@ -29,7 +29,8 @@ counttimete=0;                                                                  
 rand('state',0);  % randomseed
 %% Train and test
 % Repeat t times with k-fold cross validation 
-%t=1;
+%t=50;
+t = 1;
 k=5;                                       % Randomly sample 80% of the whole data as the training set 
 for i=1:t                                                                        % Repeat t times
     randseed = round(rand(1)*5489); 
