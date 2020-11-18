@@ -77,4 +77,4 @@ If you use our work and codes for the further research then please cite the pape
       primaryClass={cs.LG}
 }</pre></details>
 
-If you have any query/suggestion, kindly write to [Kirandeep Kour](kour@mpi-magdeburg.mpg.de).
+If you have any query/suggestion, kindly write to [Kirandeep Kour](https://www.mpi-magdeburg.mpg.de/person/59949/842836) at kour@mpi-magdeburg.mpg.de.
