@@ -33,23 +33,27 @@ Addpath
 Each folder presents results for each step of algorithm, presented in paper. 
 
 * Folder - TT_KTT_code
+
 main file: Result_TT_KTT.m
 
-![KTT identity random kernel](https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/first.png){width = 65%}
+<img src="https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/first.png" width="200">
 
 
 * Folder - TT_UoSVD_KTT_code
+
 main file: Result_TT_UoSVD_KTT.m
 
 ![KTTCP identity kernel](https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/second.png){width = 65%}
 
 
 * Folder - TT-CP_UoSVD_KTT_code
+
 main file: final_results_TTCP_UoSVD_KTT.m
 
 ![KTTCP identity kernel UoSVD](https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/third.png){width = 65%}
 
 *Folder - TTCP_MMK_code
+
 main file: Mainfile_results.m
 
 ![KTTCP identity kernel UoSVD NE](https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/fourth.png){width = 65%}
