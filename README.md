@@ -52,7 +52,7 @@ Each folder presents results for each step of algorithm, presented in paper.
 <img src="https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/third.png" width="200">
 
 
-*Folder - TTCP_MMK_code ([Mainfile_results.m](https://github.com/mpimd-csc/Efficient_STTM/blob/master/TTCP-MMK_code/Norm_equilirium_UoSVD_TTCP_KTT_code/Mainfile_results.m))
+* Folder - TTCP_MMK_code ([Mainfile_results.m](https://github.com/mpimd-csc/Efficient_STTM/blob/master/TTCP-MMK_code/Norm_equilirium_UoSVD_TTCP_KTT_code/Mainfile_results.m))
 
 <img src="https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/fourth.png" width="200">
 
