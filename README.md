@@ -23,7 +23,7 @@ Comparision of our method to state-of-the-art
 \end{center}
 
 
-![KTTCP_UoSVD_NE](./Figures/final_result_ADNI-eps-converted-to.pdf){width = 65%}
+![KTTCP_UoSVD_NE](https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/final_result_ADNI-eps-converted-to.pdf){width = 65%}
 
 
 
