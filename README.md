@@ -16,7 +16,8 @@ The key novelty of our research is a stable and well explained Support Vector Ma
 
 Each folder presents results for each step of algorithm, presented in paper. 
 
-
+Comparision of our method to state-of-the-art
+![KTTCP_UoSVD_NE]{./Folder/final_result_ADNI-eps-converted-to.pdf}{width = 65%}
 
 
 
