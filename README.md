@@ -16,7 +16,7 @@ The key novelty of our research is a stable and well explained Support Vector Ma
 
 Each folder presents results for each step of algorithm, presented in paper. 
 
-*** TT_***
+
 
 
 
@@ -33,13 +33,13 @@ Folder- dataset
 
 If you use our work and codes for the further research then please cite the paper [[Efficient_STTM]](https://arxiv.org/pdf/2002.05079.pdf).
 <details><summary> BibTeX </summary><pre>
-@misc{kir2020efficient,
-    title={Efficient Structure-preserving Support Tensor Train Machine},
-    author={Kirandeep Kour and Sergey Dolgov and Martin Stoll and Peter Benner},
-    year={2020},
-    eprint={2002.05079},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@misc{kour2020efficient,
+      title={Efficient Structure-preserving Support Tensor Train Machine}, 
+      author={Kirandeep Kour and Sergey Dolgov and Martin Stoll and Peter Benner},
+      year={2020},
+      eprint={2002.05079},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }</pre></details>
 
 If you have any query/suggestion, kindly write to [Kirandeep Kour](kour@mpi-magdeburg.mpg.de).
