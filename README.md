@@ -36,23 +36,23 @@ Addpath
 
 Each folder presents results for each step of algorithm, presented in paper. 
 
-* Folder - TT_KTT_code ([Result_TT_KTT.m]())
+* Folder - TT_KTT_code ([Result_TT_KTT.m](https://github.com/mpimd-csc/Efficient_STTM/blob/master/TT_KTT_code/MMKTT_code/result_TT_KTT.m))
 
 <img src="https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/first.png" width="200">
 
 
-* Folder - TT_UoSVD_KTT_code ([Result_TT_UoSVD_KTT.m]())
+* Folder - TT_UoSVD_KTT_code ([Result_TT_UoSVD_KTT.m](https://github.com/mpimd-csc/Efficient_STTM/blob/master/TT_UoSVD_KTT_code/result_TT_UoSVD_KTT.m))
 
 <img src="https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/second.png" width="200">
 
 
 
-* Folder - TT-CP_UoSVD_KTT_code ([final_results_TTCP_UoSVD_KTT.m]())
+* Folder - TT-CP_UoSVD_KTT_code ([final_results_TTCP_UoSVD_KTT.m](https://github.com/mpimd-csc/Efficient_STTM/blob/master/TT-CP_UoSVD_KTT_code/final_results_TTCP_UoSVD_KTT.m))
 
 <img src="https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/third.png" width="200">
 
 
-*Folder - TTCP_MMK_code ([Mainfile_results.m]())
+*Folder - TTCP_MMK_code ([Mainfile_results.m](https://github.com/mpimd-csc/Efficient_STTM/blob/master/TTCP-MMK_code/Norm_equilirium_UoSVD_TTCP_KTT_code/Mainfile_results.m))
 
 <img src="https://github.com/mpimd-csc/Efficient_STTM/blob/master/Figures/fourth.png" width="200">
 
